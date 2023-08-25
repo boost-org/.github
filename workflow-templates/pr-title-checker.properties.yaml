@@ -1,0 +1,3 @@
+name: Pull Request Title Verifier
+description: Workflow template to verify PR titles against Linear Ticket patterns
+iconName: verify-pr-title
