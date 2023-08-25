@@ -17,7 +17,7 @@ jobs:
           PR_TITLE="${{ github.event.pull_request.title }}"
           echo "PR Title: $PR_TITLE"
 
-          if [[ ! "$PR_TITLE" =~ ^\[ENG-[0-9]+\] ]]; then
+          if [[ ! "$PR_TITLE" =~ ^\[ENG-[0-9]+\] ]] && [[ ! "$PR_TITLE" =~ ^\[Snyk\] ]]; then
             echo "Title Failed"
             exit 1
           fi
