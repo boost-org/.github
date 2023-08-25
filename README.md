@@ -1,2 +1,2 @@
 # .github
-Standard Templates for Github
+Standard Templates for Organization Github Repos
